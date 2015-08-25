@@ -40,3 +40,16 @@
   text-decoration: none;
   display:block
 }
+
+.navbar{
+  height:75px;
+  margin-bottom: 50px;
+  position: fixed;
+}
+
+#email{
+  height:75px;
+  width:75px;
+  margin:auto;
+  display: block;
+}
