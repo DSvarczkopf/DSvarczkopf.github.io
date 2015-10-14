@@ -14,6 +14,16 @@ html {
 
 	opacity: .8;
 }
+
+.parag {
+  position:relative;
+  font-family: 'Rock Salt';
+	font-size: .9em;
+	opacity: .75;
+  color:white;
+  padding-left: 30px;
+padding-top: 10px;
+}
 .social{
   display:inline;
   border:3px;
