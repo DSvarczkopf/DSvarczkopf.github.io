@@ -61,6 +61,10 @@ html {
   position: absolute;
   bottom:.25em;
 }
+.projectPics{
+  width:15em;
+  height:11em;
+}
 
 td img{
   height:2em;
