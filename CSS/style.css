@@ -6,13 +6,14 @@ html {
   background-size: cover;
 }
 
-
 .pics{
 	font-family: 'Rock Salt';
 	font-size: 2em;
 	text-align: center;
 	opacity: .8;
 }
+
+
 .social{
   display:inline;
   border:3px;
@@ -27,22 +28,42 @@ td img{
 
 #p1{
 	color:#CC99FF;
+  font-family: 'Rock Salt';
+	font-size: 2em;
+	text-align: center;
+	opacity: .8;
 }
 
 #p2{
 	color:#A6FFA6;
+  font-family: 'Rock Salt';
+	font-size: 2em;
+	text-align: center;
+	opacity: .8;
 }
 
 #p3{
 	color:#33CCCC;
+  font-family: 'Rock Salt';
+	font-size: 2em;
+	text-align: center;
+	opacity: .8;
 }
 
 #p4{
 	color:#FF5F5F;
+  font-family: 'Rock Salt';
+	font-size: 2em;
+	text-align: center;
+	opacity: .8;
 }
 
 #p5{
 	color:#FFFF66;
+  font-family: 'Rock Salt';
+	font-size: 2em;
+	text-align: center;
+	opacity: .8;
 }
 
 #name{
@@ -53,6 +74,46 @@ td img{
 	padding-top: 1.8em;
 	opacity: 1;
 }
+
+
+.navbar{
+  display: inline-block;
+  padding: 0;
+	margin: 0;
+  margin-top: 2em;
+	position: absolute; /* Ensures that the menu doesn’t affect other elements */
+}
+
+.navlist {
+  display:block;
+  float: left;
+  position: relative;
+  width:7.8em;
+	text-align: center;  /* All text is placed in the center of the box */
+	list-style: none;  /* Removes the default styling (bullets) for the list */
+	padding-left: 0;
+	margin: 0;
+
+}
+
+.dropdown-menu{
+  list-style: none;
+  background-color: black;
+    opacity: .8;
+  border:2px solid white;
+  text-align: center;
+  padding:1em;
+  position: absolute;
+  height:auto:
+  width:150px;
+  font-family: 'Rock Salt';
+  color:white;
+  position: absolute;
+  margin-left: 34.1em;
+  margin-top: 4em;
+
+}
+
 
 a:link{
   color:inherit;
