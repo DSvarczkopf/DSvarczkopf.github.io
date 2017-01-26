@@ -1,0 +1,108 @@
+/**************************************************************
+General
+**************************************************************/
+h1, h2 , h3, h4, h5, h6{
+  font-family: 'Rock Salt', cursive;
+  color:#A6FFA6;
+}
+p{
+  color:white;
+}
+body{
+  background-image: url("../img/background.jpg");
+  font-family: 'Rock Salt', cursive;
+}
+.wrap{
+  width:90%;
+  max-width: 1100px;
+  margin:0 auto;
+}
+
+/**************************************************************
+Navigation
+**************************************************************/
+.top-bar ul {
+  background-color: transparent;
+}
+.top-bar ul li ul{
+  background-color: rgba(140, 140, 140,.4);
+  border:none;
+  margin-top: 17px;
+}
+.top-bar{
+  background-color: rgba(140, 140, 140,.2);
+}
+.menu-text{
+  list-style-type: none;
+}
+#a1{
+color:#CC99FF;
+}
+#a2{
+color:#A6FFA6;
+}
+#a3{
+color:#33CCCC;
+}
+#a4{
+color:#FF5F5F;
+}
+#a5{
+color:#FFFF66;
+}
+#a1:hover, #a2:hover, #a3:hover, #a4:hover, #a5:hover{
+  color:black;
+}
+/**************************************************************
+Hero
+**************************************************************/
+.wrap-cont{
+  width:90%;
+  max-width: 400px;
+  margin:0 auto;
+
+}
+.hero{
+padding: 20px 0px 0px 0px;
+}
+
+/**************************************************************
+Main Section
+**************************************************************/
+.main-index{
+margin-top: 50px;
+}
+
+/**************************************************************
+Footer
+**************************************************************/
+footer{
+  margin-top: 50px;
+}
+.wrap-footer{
+  text-align: center;
+  width:50%;
+  max-width: 600px;
+  margin:0 auto;
+}
+table td{
+  width: 25%;
+}
+table tbody, table tbody tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.table-image{
+  width:60px;
+}
+
+a:link, a:visited{
+  font-size: .8em;
+  font-family: 'Rock Salt', cursive;
+  color:white;
+}
+a:hover{
+  font-size: .8em;
+  font-family: 'Rock Salt', cursive;
+  color:black;
+}
