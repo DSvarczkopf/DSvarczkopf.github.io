@@ -1,51 +1,91 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link type="text/css" rel="stylesheet" href="CSS/style.css"/>
-  <link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <title>Dan Svarczkopf</title>
-</head>
-
-<body>
-
-<div id="name">
-  <strong><a style="text-decoration:none" href="index.html">Dan Svarczkopf</a></strong>
-</div>
-
-<div>
-<ul class="navbar">
-      <li class="navlist" id="p1"> <a style="text-decoration:none" href="About Me.html"> About Me </li>
-      <li class="navlist" id="p2"> <a style="text-decoration:none" href="Education.html">Education </li>
-      <li class="navlist" class="dropdown" id="p3"> <a class="dropdown-toggle" style="text-decoration:none" href="#"> Projects</a> </li>
-          <ul class="dropdown-menu">
-              <li><a href="Docs/Project1.docx" download>Project #1</a></li>
-              <li><a href="Docs/Project2.docx" download>Project #2</a></li>
-              <li><a href="Docs/Project3.docx" download>Project #3</a></li>
-              <li><a href="Docs/Project4.docx" download>Project #4</a></li>
-              <li><a href="Docs/Project5.docx" download>Project #5</a></li>
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan Svarczkopf - Digital Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <!--  Navigation  -->
+    <nav class="top-bar">
+      <div class="wrap">
+        <div class="top-bar-left">
+          <li class="menu-text" style="font-family:Rock Salt; font-size:1.2em; color:white">Dan Svarczkopf</li>
+        </div>
+        <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li><a href="index.html" id="a1">About Me</a></li>
+              <li><a href="education.html" id="a2">Education/Certifications</a></li>
+              <li><a href="worksamples.html" id="a3">Work Samples</a>
+                <ul class="menu">
+                  <li><a href="#" id="a3">Sample One</a></li>
+                  <li><a href="#" id="a3">Sample Two</a></li>
+                  <li><a href="#" id="a3">Sample Three</a></li>
+                </ul>
+              </li>
+              <li><a href="https://drive.google.com/open?id=0B80MG-473Btmc1lQdnFBS3lLMTg" target="_blank" id="a4">Resume</a></li>
+              <li><a href="contactme.html"  id="a5">Contact Me</a></li>
             </ul>
-      <li class="navlist" id="p4"> <a style="text-decoration:none" href="pictures/Resume.docx" download>Resume </li>
-      <li class="navlist" id="p5"> <a style="text-decoration:none" href="Contact Me.html">Contact Me</li>
+        </div>
+      </div>
+    </nav>
+    <!--  Hero Section  -->
+<section class="hero">
 
-</ul>
-</div>
+
+</section>
 
 
-<div>
-<table  class="social">
-    <tr>
-      <td><a href="https://www.facebook.com/dsvarczkopf"><img src="pictures/facebook.png"/></td></a>
-      <td><a href="https://www.linkedin.com/nhome/?trk="><img src="pictures/Linked.png"/></a>
-      <td><a href="https://twitter.com/dsvarczkopf"><img src="pictures/tweet.png"/></a>
-      <td><a href="https://instagram.com/dsvarczkopf/"><img src="pictures/insta.png"/></a>
-    </tr>
-</table>
-</div>
+    <!--  Main Section  -->
 
-<script src="app.js"></script>
+<section class="main-index">
+  <div class="wrap">
+    <table>
+      <tr>
+        <td style="width:25%;padding:0px 20px;vertical-align:top;"><img style="width:"src="img/headshot.jpeg" alt=""></td>
+        <td style="width:75%"><h3>About Me</h3>
+          <p>My name is Dan Svarczkopf. I received a Bachelor of Arts Degree in Secondary Mathematics Education from Mount Saint Mary College. I more recently graduated from the Educational Technology masters program at SUNY College at Oneonta. At my previous school I developed an educational plan to implement mobile education devices, Motorola Xooms, into the everyday classroom environment. This past year I developed a technology plan that will help my current school teach our transient population through individualized, self-paced learning. The plan included not only the teaching plan, but also the hardware infrastructure needed to support such an endeavor.
+            My teaching philosophy is that every child is capable of learning how to learn. Hence, I do not seek to merely teach the material, but to train each child in the core principles of mathematics, such that they can apply them to problems and situations that they have not yet come across.
+          </p>
+        </td>
+
+      </tr>
+
+    </table>
+
+  </div>
+</section>
+
+<hr COLOR="white" WIDTH="80%">
+    <!--  Footer Section  -->
+<footer>
+  <div class="wrap-footer">
+    <h3>Let's Get In Touch!</h3>
+    <p>Have any questions for me? That's great! Give me a call or send me an email and I will get back to you as soon as possible!</p>
+    <table class="about-me-table">
+      <tr>
+        <td><a href="tel:9142042996"><img class="table-image" src="img/phone.png" alt=""></a></td>
+
+        <td><a href="mailto:dsvarczkopf@gmail.com"><img class="table-image" src="img/email.png" alt=""></a></td>
+      </tr>
+      <tr>
+        <td><a href="tel:9142042996">914-204-2996</a></td>
+
+        <td><a href="mailto:dsvarczkopf@gmail.com">DSvarczkopf@gmail.com</a></td>
+      </tr>
+    </table>
+  </div>
+
+</footer>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
   </body>
-  </html>
+</html>
