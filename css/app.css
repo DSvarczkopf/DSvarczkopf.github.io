@@ -10,6 +10,7 @@ p{
 }
 body{
   background-image: url("../img/background.jpg");
+  background-size: cover;
   font-family: 'Rock Salt', cursive;
 }
 .wrap{
@@ -31,6 +32,7 @@ Navigation
 }
 .top-bar{
   background-color: rgba(140, 140, 140,.2);
+  width:auto;
 }
 .menu-text{
   list-style-type: none;
