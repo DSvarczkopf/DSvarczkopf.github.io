@@ -38,7 +38,7 @@ Navigation
   list-style-type: none;
 }
 .title-bar{
-  background-color: rgba(140, 140, 140,.2);
+  background-color: transparent;
 }
 
 #a1{
