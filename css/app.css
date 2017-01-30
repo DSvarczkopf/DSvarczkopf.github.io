@@ -7,11 +7,14 @@ h1, h2 , h3, h4, h5, h6{
 }
 p{
   color:white;
+  font-family: 'Coming Soon', cursive;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 body{
   background-image: url("../img/background.jpg");
   background-size: cover;
-  font-family: 'Rock Salt', cursive;
+
 }
 .wrap{
   width:90%;
@@ -117,12 +120,12 @@ table tbody, table tbody tr:nth-child(even) {
 }
 
 a:link, a:visited{
-  font-size: .8em;
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Coming Soon', cursive;
+  font-weight: bold;
   color:white;
 }
 a:hover{
-  font-size: .8em;
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Coming Soon', cursive;
+  font-weight: bold;
   color:black;
 }
