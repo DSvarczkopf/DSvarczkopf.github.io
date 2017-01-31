@@ -2,20 +2,16 @@
 General
 **************************************************************/
 h1, h2 , h3, h4, h5, h6{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Rock Salt', cursive;
   color:#A6FFA6;
-  font-weight: bold;
 }
 p{
   color:white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.1em;
-  font-weight: bold;
 }
 body{
   background-image: url("../img/background.jpg");
   background-size: cover;
-
+  font-family: 'Rock Salt', cursive;
 }
 .wrap{
   width:90%;
@@ -50,9 +46,6 @@ Navigation
 .top-bar{
   background-color: rgba(140, 140, 140,.2);
   width:auto;
-}
-.top-bar-right ul{
-  padding-top: .3em;
 }
 .menu-text{
   list-style-type: none;
@@ -124,14 +117,12 @@ table tbody, table tbody tr:nth-child(even) {
 }
 
 a:link, a:visited{
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.1em;
-  font-weight: bold;
+  font-size: .8em;
+  font-family: 'Rock Salt', cursive;
   color:white;
 }
 a:hover{
-  ont-family: 'Oswald', sans-serif;
-  font-weight: bold;
-  font-size: 1.1em;
+  font-size: .8em;
+  font-family: 'Rock Salt', cursive;
   color:black;
 }
